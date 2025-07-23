@@ -1,0 +1,19 @@
+/* .my-text {
+  -webkit-text-stroke: 1px #68E4FF33;
+  color: transparent; 
+  -webkit-text-fill-color: white; 
+} */
+
+.my-text {
+  color: white;
+  text-shadow:
+    0 0 2px #68E4FF33,
+    1px 1px 0 #68E4FF33,
+    -1px -1px 0 #68E4FF33,
+    1px -1px 0 #68E4FF33,
+    -1px 1px 0 #68E4FF33,
+    2px 0 0 #68E4FF33,
+    -2px 0 0 #68E4FF33,
+    0 2px 0 #68E4FF33,
+    0 -2px 0 #68E4FF33;
+}
